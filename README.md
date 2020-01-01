@@ -2,7 +2,7 @@
 Localhost Body Class is a simple and lightweight plugin that adds the class "localhost" to the opening body tag of your WordPress theme.
 
 ## Why do I need this plugin?
-If you are a WordPress developer and you create custom WordPress themes, sometimes you want to have CSS styles to only affect your localhost version of the website. Hence, this is where this plugin comes in handy. 
+If you are a WordPress developer and you create custom WordPress themes, sometimes you want to have CSS styles to only affect your localhost version of the website. Likewise, sometimes you want to have CSS styles to only affect the live/production version of your website. Hence, this is where this plugin comes in handy. 
 
 ## A new body class
 WordPress inserts an array of class names into the body tag of your WordPress theme [body class](https://developer.wordpress.org/reference/functions/body_class/). The class names are different depending on which page you are on. You can see the class names when you view the source code of your website. This plugin inserts a new class name into the opening body tag but only if you are running the website on your localhost as seen in the example below.
