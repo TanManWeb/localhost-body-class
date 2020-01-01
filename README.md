@@ -13,7 +13,7 @@ WordPress inserts an array of class names into the opening ```<body>``` tag of y
 In order for this plugin to work, you must have the ```<body <?php body_class(); ?>>``` tag in your WordPress theme. This can be found in the ```header.php``` file of most WordPress themes.
 
 ## How to use it in your WordPress template
-This plugin is only effective on your localhost development server (XAMPP, MAMP or WAMP just to name a few). There are no settings or parameters. This plugin does not add anything to the WordPress backend. Once activated, you can utilize the new body class name "localhost" in the CSS style sheet of your WordPress theme.
+This plugin is only effective on your localhost development server (*XAMPP*, *MAMP* or *WAMP* just to name a few). There are no settings or parameters. This plugin does not add anything to the WordPress backend. Once activated, you can utilize the new body class name "localhost" in the CSS style sheet of your WordPress theme.
 
 ### Example 1 - Basic usage
 ```
