@@ -15,17 +15,17 @@ In order for this plugin to work, you must have the ```<body <?php body_class();
 ## How to use it in your WordPress template
 This plugin is only effective on your localhost development server (XAMPP, MAMP or WAMP just to name a few). There are no settings or parameters. This plugin does not add anything to the WordPress backend. Once activated, you can utilize the new body class name "localhost" in the CSS style sheet of your WordPress theme.
 
-Example 1 - Basic usage:
+### Example 1 - Basic usage:
 ```
 body.localhost { background: red; }
 ```
 
-Example 2 - Combine with other class names:
+### Example 2 - Combine with other class names:
 ```
 body.single.localhost .sidebar { display: none; }
 ```
 
-Example 3 - Using the CSS ```:not(.localhost)``` class:
+### Example 3 - Using the CSS ```:not(.localhost)``` class:
 ```
 body:not(.localhost) .sidebar { background: orange; }
 ```
