@@ -1,4 +1,4 @@
-# Localhost Conditional Tag
+# Localhost Body Class
 Localhost Body Class is a simple and lightweight plugin that adds the class "localhost" to the opening body tag of your WordPress theme.
 
 ## Why do I need this plugin?
